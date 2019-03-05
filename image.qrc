@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/头像.png</file>
+        <file>image/挂断.png</file>
+        <file>image/接听.png</file>
+    </qresource>
+</RCC>

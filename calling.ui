@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calling</class>
+ <widget class="QWidget" name="Calling">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="label_phoneNumber">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>90</y>
+     <width>540</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;123 4567 8901&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>200</y>
+     <width>220</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>ADMUI3Lg</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;ADMUI3Lg&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;中国电信 01:10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_closeConnect">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>540</y>
+     <width>90</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.170455 rgba(0, 0, 0, 255), stop:1 rgba(121, 121, 121, 255));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>挂断</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Connect">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>540</y>
+     <width>90</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.170455 rgba(0, 0, 0, 255), stop:1 rgba(121, 121, 121, 255));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车载/手机 接听</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_keyboard">
+   <property name="geometry">
+    <rect>
+     <x>595</x>
+     <y>540</y>
+     <width>90</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.170455 rgba(0, 0, 0, 255), stop:1 rgba(121, 121, 121, 255));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>键盘</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
